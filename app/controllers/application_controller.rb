@@ -17,4 +17,8 @@ class ApplicationController < ActionController::Base
   def dasasd
     @fas="asdsad"
   end
+
+  def againconflict
+    @conflict2= "Sagar"
+  end
 end
