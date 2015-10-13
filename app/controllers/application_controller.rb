@@ -18,6 +18,10 @@ class ApplicationController < ActionController::Base
     @fas="asdsad"
   end
 
+  def method1
+    @var="conflict test"
+  end
+
   def againconflict
     @conflict2= "Sagar"
   end
