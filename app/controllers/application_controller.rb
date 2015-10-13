@@ -14,4 +14,7 @@ class ApplicationController < ActionController::Base
   def testingConflict
     @conflict="Dasith"
   end
+  def dasasd
+    @fas="asdsad"
+  end
 end
