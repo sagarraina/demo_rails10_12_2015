@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def view_demo
     @task="hello"
   end
+
+  def sagar
+    @tasksagar="change2"
+  end
 end
