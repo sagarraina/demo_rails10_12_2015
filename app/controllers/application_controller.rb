@@ -10,4 +10,8 @@ class ApplicationController < ActionController::Base
   def sagar
     @tasksagar="change2"
   end
+
+  def testingConflict
+    @conflict="Dasith"
+  end
 end
